@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/battery_usage_before_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Usage Before: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/performance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processing Time: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Data Collection" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Data Collection"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/battery_usage_after_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Usage After: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/accelerometer_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc data: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
